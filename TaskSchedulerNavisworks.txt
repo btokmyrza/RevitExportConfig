@@ -1,0 +1,82 @@
+ExportToNavisworks (2018_TSE_TOKYO_H)
+
+ExportToNavisworks (2018_TSE_PP_S4-5)
+
+ExportToNavisworks (2018_TSE_PP_S6-8)
+
+ExportToNavisworks (14_CAPITAL PARK)
+
+ExportToNavisworks (2019_TSE_CAPITAL_PARK_3E)
+
+ExportToNavisworks (2018_TSE_BTSD)
+
+ExportToNavisworks (25_VG_LETO-4)
+
+ExportToNavisworks (2019_AST_BTG_GRN)
+
+ExportToNavisworks (2019_TSE_THE_ONE)
+
+ExportToNavisworks (???????)
+
+*******************************************************************************************
+------------------------------------------------------------------------------------------>>> 2018_TSE_TOKYO_H
+
+
+
+
+
+------------------------------------------------------------------------------------------>>> 2018_TSE_PP_S4-5
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
+    <Select Path="Microsoft-Windows-TaskScheduler/Operational">*[EventData [@Name='TaskSuccessEvent'][Data[@Name='TaskName']='\ExportToNavisworks (2018_TSE_TOKYO_H)']]</Select>
+  </Query>
+</QueryList>
+------------------------------------------------------------------------------------------>>> 2018_TSE_PP_S6-8
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
+    <Select Path="Microsoft-Windows-TaskScheduler/Operational">*[EventData [@Name='TaskSuccessEvent'][Data[@Name='TaskName']='\ExportToNavisworks (2018_TSE_PP_S4-5)']]</Select>
+  </Query>
+</QueryList>
+------------------------------------------------------------------------------------------>>> 14_CAPITAL PARK
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
+    <Select Path="Microsoft-Windows-TaskScheduler/Operational">*[EventData [@Name='TaskSuccessEvent'][Data[@Name='TaskName']='\ExportToNavisworks (2018_TSE_PP_S6-8)']]</Select>
+  </Query>
+</QueryList>
+------------------------------------------------------------------------------------------>>> 2019_TSE_CAPITAL_PARK_3E
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
+    <Select Path="Microsoft-Windows-TaskScheduler/Operational">*[EventData [@Name='TaskSuccessEvent'][Data[@Name='TaskName']='\ExportToNavisworks (14_CAPITAL PARK)']]</Select>
+  </Query>
+</QueryList>
+------------------------------------------------------------------------------------------>>> 2018_TSE_BTSD
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
+    <Select Path="Microsoft-Windows-TaskScheduler/Operational">*[EventData [@Name='TaskSuccessEvent'][Data[@Name='TaskName']='\ExportToNavisworks (2019_TSE_CAPITAL_PARK_3E)']]</Select>
+  </Query>
+</QueryList>
+------------------------------------------------------------------------------------------>>> 25_VG_LETO-4
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
+    <Select Path="Microsoft-Windows-TaskScheduler/Operational">*[EventData [@Name='TaskSuccessEvent'][Data[@Name='TaskName']='\ExportToNavisworks (2018_TSE_BTSD)']]</Select>
+  </Query>
+</QueryList>
+------------------------------------------------------------------------------------------>>> 2019_AST_BTG_GRN
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
+    <Select Path="Microsoft-Windows-TaskScheduler/Operational">*[EventData [@Name='TaskSuccessEvent'][Data[@Name='TaskName']='\ExportToNavisworks (25_VG_LETO-4)']]</Select>
+  </Query>
+</QueryList>
+------------------------------------------------------------------------------------------>>> 2019_TSE_THE_ONE
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
+    <Select Path="Microsoft-Windows-TaskScheduler/Operational">*[EventData [@Name='TaskSuccessEvent'][Data[@Name='TaskName']='\ExportToNavisworks (2019_AST_BTG_GRN)']]</Select>
+  </Query>
+</QueryList>
+------------------------------------------------------------------------------------------>>> ???????????
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
+    <Select Path="Microsoft-Windows-TaskScheduler/Operational">*[EventData [@Name='TaskSuccessEvent'][Data[@Name='TaskName']='\ExportToNavisworks (2019_TSE_THE_ONE)']]</Select>
+  </Query>
+</QueryList>
+------------------------------------------------------------------------------------------>>>

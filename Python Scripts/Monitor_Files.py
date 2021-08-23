@@ -4,7 +4,7 @@ import logging
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
 
-path_to_watch = r"C:\Users\K.Anuar\Documents\LeaderTask\Logs"
+path_to_watch = r"C:\Users\USERNAME\Documents\LeaderTask\Logs"
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
